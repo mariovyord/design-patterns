@@ -32,3 +32,10 @@ class HouseBuilder {
     return this.house;
   }
 }
+
+const myHouse = new HouseBuilder()
+  .setFoundation("Concrete")
+  .setWalls("Brick")
+  .setRoof("Tile")
+  .setWindows(10)
+  .build();
