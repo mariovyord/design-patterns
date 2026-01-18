@@ -370,3 +370,126 @@ Identification is individual to avoid groupthink.
 Disagreements require discussion.
 
 Unproven technologies rate 8--9 risk.
+
+## Chapter 21: Diagramming and Presenting Architecture
+
+Irrational artifact attachment refers to the emotional attachment
+architects or teams develop toward specific diagrams, documents, or
+models, even after those artifacts are no longer accurate or useful.
+This is significant because architecture is evolutionary; clinging to
+outdated diagrams leads to misunderstanding, false confidence, and poor
+decision-making. Documentation should reflect current reality, not
+historical intent.
+
+The 4 C's of the C4 modeling technique refer to **Context**,
+**Containers**, **Components**, and **Code**. Context diagrams show how
+the system fits into the larger environment. Container diagrams show
+high-level technology and deployment boundaries. Component diagrams zoom
+into major building blocks inside containers. Code diagrams represent
+low-level implementation details and are usually optional.
+
+When diagramming architecture, dotted lines between components typically
+indicate **indirect, asynchronous, optional, or conceptual
+relationships**, such as event-based communication, future integrations,
+or dependencies that are not direct runtime calls.
+
+The bullet-riddled corpse anti-pattern occurs when slides are overloaded
+with bullet points, causing audiences to read instead of listen. This
+leads to disengagement and ineffective communication. It can be avoided
+by using visuals, diagrams, minimal text, and spoken explanation instead
+of dense slide content.
+
+A presenter has two primary information channels: **visual** (slides,
+diagrams) and **verbal** (spoken explanation). Effective presentations
+balance these channels rather than duplicating the same information in
+both.
+
+------------------------------------------------------------------------
+
+## Chapter 22: Making Teams Effective
+
+Three common architecture personalities are the **control-oriented
+architect**, who creates rigid boundaries and tight governance; the
+**collaborative architect**, who creates shared boundaries through
+facilitation; and the **hands-off architect**, who creates loose or
+unclear boundaries. Each personality influences how constrained or
+empowered teams feel.
+
+The level of control an architect should exert depends on five factors:
+team maturity, system criticality, regulatory requirements,
+architectural volatility, and organizational culture. Highly regulated
+or mission-critical systems require more control than exploratory or
+low-risk systems.
+
+Warning signs that a team is getting too big include increased
+communication overhead, slower decision-making, and unclear ownership or
+responsibility boundaries.
+
+Useful development team checklists include a **deployment readiness
+checklist**, a **code quality checklist**, and an **architecture
+compliance checklist** to ensure consistency and shared expectations.
+
+------------------------------------------------------------------------
+
+## Chapter 23: Negotiation and Leadership Skills
+
+Negotiation is critical for architects because architecture decisions
+are rarely purely technical. Architects must balance business goals,
+cost, risk, and feasibility, often mediating between competing
+stakeholders.
+
+When a stakeholder insists on five nines of availability, negotiation
+techniques include explaining cost trade-offs, presenting historical
+availability data, aligning availability levels with business impact,
+and offering phased improvements.
+
+When a business stakeholder says "I needed it yesterday," it usually
+signals urgency, risk, or unmet expectations rather than a literal
+timeline. Architects should probe for the underlying business pressure.
+
+Time and cost discussions should be saved for last because early focus
+on constraints can shut down creative problem-solving. Exploring value
+first allows more flexible solutions.
+
+The divide-and-conquer rule suggests breaking a large negotiation into
+smaller, independent parts. For example, instead of negotiating
+availability as a single requirement, an architect might separate
+user-facing availability from administrative availability.
+
+The 4 C's of architecture are **Communication, Collaboration, Clarity,
+and Consistency**. Architects must be pragmatic to deliver value within
+constraints while also being visionary to guide long-term evolution.
+
+Meetings can be reduced by declining nonessential invitations,
+requesting agendas, using written updates, and delegating representation
+where appropriate.
+
+------------------------------------------------------------------------
+
+## Chapter 24: Developing a Career Path
+
+The 20-minute rule suggests spending at least 20 focused minutes
+learning or experimenting with new technology to overcome initial
+friction. It is best applied when exploring unfamiliar tools or
+concepts.
+
+The four rings of the ThoughtWorks Technology Radar are **Adopt**,
+**Trial**, **Assess**, and **Hold**. They represent increasing levels of
+confidence and recommendation. Architects can apply this model to
+maintain a personal radar and guide learning priorities.
+
+Depth of knowledge refers to deep expertise in a narrow area, while
+breadth refers to familiarity across many technologies and domains.
+Architects should aspire to maximize breadth while maintaining selective
+depth to remain effective decision-makers.
+
+------------------------------------------------------------------------
+
+## Summary
+
+These final chapters emphasize that architecture is not only about
+systems, but also about communication, leadership, and career growth.
+Effective architects document lightly, present clearly, build healthy
+teams, negotiate wisely, and continuously invest in learning.
+Architecture excellence emerges not from rigid control, but from
+informed judgment, empathy, and adaptability.
