@@ -55,3 +55,5 @@ The PACELC theorem extends CAP:
 - Else (E) → trade-off between Latency (L) and Consistency (C)
 
 This better reflects real-world systems, where trade-offs exist even without failures.
+
+Read more:
