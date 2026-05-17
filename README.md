@@ -1,32 +1,100 @@
-# Design Patterns Examples
+# Software Engineering Notes & Examples
 
-This repository contains examples of classic design patterns implemented in TypeScript. Design patterns are typical solutions to common problems in software design that help create more maintainable and flexible code.
+A personal reference repository covering design patterns, system design, data structures & algorithms, and web platform topics. Implemented and documented in TypeScript, JavaScript, and Java.
 
-## Pattern Categories
+## Design Patterns
 
-### Creational Patterns
+TypeScript implementations of classic GoF patterns.
 
-- **Abstract Factory** - Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
-- **Factory Method** - Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
-- **Builder** - Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
-- **Prototype** - Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
-- **Singleton** - Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+### Creational
 
-### Structural Patterns
+| Pattern | File |
+|---|---|
+| Abstract Factory | `creational/abstract-factory.ts` |
+| Factory Method | `creational/factory.ts` |
+| Builder | `creational/builder.ts` |
+| Prototype | `creational/prototype.ts` |
+| Singleton | `creational/singleton.ts` |
 
-- **Adapter** - Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
-- **Bridge** - Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
-- **Composite** - Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
-- **Decorator** - Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
-- **Facade** - Facade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
-- **Flyweight** - Flyweight is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
-- **Proxy** - Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
+### Structural
 
-### Behavioral Patterns
+| Pattern | File |
+|---|---|
+| Adapter | `structural/adapter.ts` |
+| Bridge | `structural/bridge.ts` |
+| Composite | `structural/composite.ts` |
+| Decorator | `structural/decorator.ts` |
+| Facade | `structural/facade.ts` |
+| Flyweight | `structural/flyweight-cache.ts` |
+| Proxy | `structural/proxy.ts` |
 
-- **Observer** - Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
-- **Strategy** - Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
-- **Chain of Responsibility** - Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
-- **Command** - Command is a behavioral design pattern that turns a request into a stand-alone object that contains all information about the request. This transformation lets you pass requests as a method arguments, delay or queue a request's execution, and support undoable operations.
-- **Observer** - Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they're observing.
-- **Strategy** - Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.This repository contains examples of classic design patterns implemented in TypeScript. Design patterns are typical solutions to common problems in software design that help create more maintainable and flexible code.
+### Behavioral
+
+| Pattern | File |
+|---|---|
+| Chain of Responsibility | `behavioral/chain-of-responsibility.ts` |
+| Command | `behavioral/command.ts` |
+| Iterator | `behavioral/iterator.ts` |
+| Mediator | `behavioral/mediator.ts` |
+| Memento | `behavioral/memento.ts` |
+| Observer | `behavioral/observer.ts` |
+| State | `behavioral/state.ts` |
+| Strategy | `behavioral/strategy.ts` |
+| Template Method | `behavioral/template-method.ts` |
+| Visitor | `behavioral/visitor.ts` |
+
+---
+
+## System Design
+
+Architecture notes covering large-scale system design concepts.
+
+| Topic | File |
+|---|---|
+| System Requirements & Architecture Drivers | `system-design/system-req-and-arch-drivers.md` |
+| Quality Attributes | `system-design/quality-attributes.md` |
+| Multi-Tier Architecture | `system-design/multi-tier.md` |
+| Microservices | `system-design/microservices.md` |
+| Event-Driven Architecture | `system-design/event-driven.md` |
+| Event Processing Strategies | `system-design/event-processing.md` |
+| Load Balancing | `system-design/load-balancing.md` |
+| API Design | `system-design/api-design.md` |
+| CAP Theorem | `system-design/cap-theorem.md` |
+| Unstructured Data Storage | `system-design/unstructured-data-storage.md` |
+
+---
+
+## Data Structures & Algorithms
+
+Notes and implementations in JavaScript and Java.
+
+| Topic | File |
+|---|---|
+| Big O Notation | `data_structures_and_algorithms/big_o_notation.md` |
+| Arrays | `data_structures_and_algorithms/array.md` |
+| Linked List | `data_structures_and_algorithms/LinkedList.java` |
+| Stack | `data_structures_and_algorithms/stack.js` |
+| Binary Search | `data_structures_and_algorithms/binary-search.js` |
+| Linear Search | `data_structures_and_algorithms/linear-search.js` |
+| Bubble Sort | `data_structures_and_algorithms/bubble-sort.js` |
+| Insertion Sort | `data_structures_and_algorithms/InsertionSort.java` |
+| Selection Sort | `data_structures_and_algorithms/SelectionSort.java` |
+
+---
+
+## Web Platform
+
+Notes on browser APIs, web standards, and frontend architecture.
+
+| Topic | File |
+|---|---|
+| Micro-Frontends | `web/microfrontends.md` |
+| Microservices (Fowler & Lewis) | `web/notes-microservices.md` |
+| Web Workers | `web/web-workers.md` |
+| Server-Sent Events | `web/server-sent-events.md` |
+| Custom Elements | `web/custom-elements.md` |
+| Shadow DOM | `web/shadow-dom.md` |
+| Dynamic Import | `web/dynamic-import.md` |
+| Internationalization (Intl API) | `web/intl.md` |
+| Canvas Game | `web/canvas-game.md` |
+| Web Fundamentals Q&A | `web/fundamentals-complete-answers.md` |
